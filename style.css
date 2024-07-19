@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+body {
+    font-family: 'Dosis', sans-serif;
+    margin: 20px;
+}
+
+.number {
+  border-radius:10px;
+  
+}
+
+a.text {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: blue;
+}
+  
+
+
+
+
