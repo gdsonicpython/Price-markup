@@ -6,17 +6,32 @@ body {
 }
 
 .number {
+  position: absolute;
   border-radius:10px;
-  
+  width:20%;
+  left: 40%;
+  top: 50%;
 }
 
 a.text {
-    display: block;
-    margin-top: 10px;
+    position: absolute;
     font-size: 20px;
-    color: blue;
+    left: 40%;
+    top: 60%;
 }
   
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
