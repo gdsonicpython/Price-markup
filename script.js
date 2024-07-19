@@ -1,9 +1,9 @@
-function stringToInt(str) {
-    return parseInt(str, 10);
+function stringToFloat(str) {
+    return parseFloat(str, 10);
 }
 
-function intToString(int) {
-    return int.toString();
+function floatToString(float) {
+    return float.toString();
 }
 
 function algorithm(n) {
@@ -11,10 +11,10 @@ function algorithm(n) {
 }
 
 document.getElementById('number').addEventListener('input', function() {
-    let intValue = stringToInt(this.value);
-    if (!isNaN(intValue)) {
-        let result = algorithm(intValue);
-        document.getElementById('text').innerText = intToString(result);
+    let floatValue = stringToFloat(this.value);
+    if (!isNaN(floatValue)) {
+        let result = algorithm(floatValue);
+        document.getElementById('text').innerText = floatToString(result);
     } else {
         document.getElementById('text').innerText = '';
     }
