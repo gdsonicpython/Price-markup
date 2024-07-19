@@ -6,11 +6,11 @@ body {
 }
 
 .number {
-  position: absolute;
-  border-radius:10px;
-  width:20%;
-  left: 40%;
-  top: 50%;
+    position: absolute;
+    border-radius:10px;
+    width:20%;
+    left: 40%;
+    top: 50%;
 }
 
 a.text {
@@ -20,6 +20,8 @@ a.text {
     top: 60%;
 }
   
+
+
 
 
 
