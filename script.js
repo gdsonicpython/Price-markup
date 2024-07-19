@@ -3,7 +3,7 @@ function stringToFloat(str) {
 }
 
 function floatToString(float) {
-    return float.toString();
+    return float.toFixed(2).toString();
 }
 
 function algorithm(n) {
